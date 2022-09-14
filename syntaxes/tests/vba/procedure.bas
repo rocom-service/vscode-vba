@@ -42,6 +42,8 @@ Function withParam(Optional p1 As MyType)
 End Function
 ' <------------ keyword.other.vba
 
-Call mSub()
-' <---- keyword.other.vba
-'    ^^^^ entity.name.function.vba
+
+Property Get DMS_Name() As String
+'            ^^^^^^^^ entity.name.function.vba
+End Property
+' <------------ keyword.other.vba

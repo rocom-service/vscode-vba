@@ -42,7 +42,10 @@
 				"extensions": [
 					".bas",
 					".cls",
-					".frm"
+					".frm",
+					".ACM",
+					".ACF",
+					".ACR"
 				],
 				"configuration": "./out/language-configuration.json"
 			},

@@ -2,6 +2,7 @@
 out/
 dist/
 *.vsix
+reload
 
 # editor files
 *.code-workspace

@@ -2,6 +2,10 @@
 
 Sub ShowErrors()
     Dim x As Long
+
+    On Error Goto 0
+'            ^^^^^^ keyword.control.vba
+
     On Error Goto ehandler
 '   ^^^^^^^^ keyword.control.vba
 '            ^^^^ keyword.control.vba

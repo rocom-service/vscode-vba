@@ -144,3 +144,36 @@ Sub Logon
     RaiseEvent LogonCompleted ("AntoineJan")
 '   ^^^^^^^^^^ keyword.other.vba
 End Sub
+
+Dim r As Variant
+r = CBool(variable)
+'   ^^^^^ keyword.other.builtin.vba
+r = CByte(variable)
+'   ^^^^^ keyword.other.builtin.vba
+r = CCur(variable)
+'   ^^^^ keyword.other.builtin.vba
+r = CDate(variable)
+'   ^^^^^ keyword.other.builtin.vba
+r = CDbl(variable)
+'   ^^^^ keyword.other.builtin.vba
+r = CInt(variable)
+'   ^^^^ keyword.other.builtin.vba
+r = CLng(variable)
+'   ^^^^ keyword.other.builtin.vba
+r = CSng(variable)
+'   ^^^^ keyword.other.builtin.vba
+r = CStr(variable)
+'   ^^^^ keyword.other.builtin.vba
+r = LBound(variable)
+'   ^^^^^^ keyword.other.builtin.vba
+r = UBound(variable)
+'   ^^^^^^ keyword.other.builtin.vba
+
+
+If TypeOf item Is ICFProvider2 Then
+'  ^^^^^^ keyword.control.vba
+'                 ^^^^^^^^^^^^ support.type.class
+
+If TypeOf v Is ICFProvider2 Then
+'  ^^^^^^ keyword.control.vba
+'              ^^^^^^^^^^^^ support.type.class

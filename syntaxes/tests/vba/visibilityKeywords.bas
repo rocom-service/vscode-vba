@@ -8,3 +8,6 @@ Private strMsg As String
 
 Friend Sub DoStuff()
 ' <------ keyword.other.visibility.vba
+
+Global strMsg As String
+' <------ keyword.other.visibility.vba
